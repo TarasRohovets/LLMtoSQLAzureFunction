@@ -1,0 +1,11 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+langchain==0.0.281
+langchain-experimental==0.0.14
+requests==2.31.0
+mysql==0.0.3
+mysql-connector-python==8.1.0
+openai==0.28.0
